@@ -55,7 +55,7 @@ void cocktail_sort_list(listint_t **list)
 		swapped = 0;
 		while (tmp->prev)
 		{
-			if (tmp-> n < tmp->prev->n)
+			if (tmp->n < tmp->prev->n)
 			{
 				node_swap(list, tmp->prev, tmp);
 				print_list((const listint_t *)*list);
